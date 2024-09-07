@@ -1,0 +1,4 @@
+first i got the space launch dataset, using an api i added coordinates dataset
+then using python and logic i generated weather data like humid/temp/wind_speed
+then i got a world conflictes dataset
+and decided to join both on country
