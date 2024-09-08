@@ -1,0 +1,138 @@
+location,latitude,longitude,location_id,country_id
+"LC-39A, Kennedy Space Center, Florida, USA",30.919409,-87.314059,0,238
+"Site 9401 (SLS-2), Jiuquan Satellite Launch Center, China",35.0,105.0,1,47
+"Pad A, Boca Chica, Texas, USA",30.056755,-94.098334,2,238
+"Site 200/39, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,3,116
+"SLC-41, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,4,238
+"LC-9, Taiyuan Satellite Launch Center, China",35.0,105.0,5,47
+"Site 31/6, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,6,116
+"LC-101, Wenchang Satellite Launch Center, China",35.0,105.0,7,47
+"SLC-40, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,8,238
+"LA-Y1, Tanegashima Space Center, Japan",35.68536,139.75309,9,113
+"LP-0B, Wallops Flight Facility, Virginia, USA",37.94074,-75.46742,10,238
+"Site 95, Jiuquan Satellite Launch Center, China",40.964989,100.2838215,11,47
+"LC-3, Xichang Satellite Launch Center, China",35.0,105.0,12,47
+"Pad 1, Palmachim Airbase, Israel",31.5,34.75,13,110
+"Rocket Lab LC-1A, M?hia Peninsula, New Zealand",-42.03333,173.85,14,157
+"LC-2, Xichang Satellite Launch Center, China",35.0,105.0,15,47
+"Xichang Satellite Launch Center, China",28.2457616,102.027938,16,47
+"Cosmic Girl, Mojave Air and Space Port, California, USA",35.073026,-117.964936,17,238
+"Site 43/4, Plesetsk Cosmodrome, Russia",60.0,100.0,18,183
+"LA-Y2, Tanegashima Space Center, Japan",35.68536,139.75309,19,113
+"Launch Plateform, Shahrud Missile Test Site",36.426529,54.968635,20,106
+"LC-201, Wenchang Satellite Launch Center, China",35.0,105.0,21,47
+"Site 43/3, Plesetsk Cosmodrome, Russia",60.0,100.0,22,183
+"ELA-3, Guiana Space Centre, French Guiana, France",16.239121,-61.365446,23,78
+"LP-0A, Wallops Flight Facility, Virginia, USA",37.94074,-75.46742,24,238
+"Imam Khomeini Spaceport, Semnan Space Center, Iran",32.0,53.0,25,106
+"Site 133/3, Plesetsk Cosmodrome, Russia",60.0,100.0,26,183
+"Site 81/24, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,27,116
+"ELS, Guiana Space Centre, French Guiana, France",16.239121,-61.365446,28,78
+"Blue Origin Launch Site, West Texas, Texas, USA",31.80238,-97.09167,29,238
+"First Launch Pad, Satish Dhawan Space Centre, India",22.0,79.0,30,104
+"Taiyuan Satellite Launch Center, China",35.0,105.0,31,47
+"Second Launch Pad, Satish Dhawan Space Centre, India",22.0,79.0,32,104
+"LC-16, Taiyuan Satellite Launch Center, China",35.0,105.0,33,47
+"Vertical Launch Area, Spaceport America, New Mexico",32.291119,-106.75377,34,238
+"Stargazer, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,35,238
+"Site 1/5, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,36,116
+"SLC-37B, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,37,238
+"ELV-1 (SLV), Guiana Space Centre, French Guiana, France",47.894349,1.845043,38,78
+"Site 1S, Vostochny Cosmodrome, Russia",51.8531816,128.3451379,39,183
+"SLC-4E, Vandenberg AFB, California, USA",34.66324,-118.190974,40,238
+"Tai Rui Barge, Yellow Sea",36.0,124.0,41,47
+"SLC-6, Vandenberg AFB, California, USA",35.927928,-120.503852,42,238
+"Mu Pad, Uchinoura Space Center, Japan",35.68536,139.75309,43,113
+"SLC-2W, Vandenberg AFB, California, USA",34.66324,-118.190974,44,238
+"SLC-3E, Vandenberg AFB, California, USA",34.66324,-118.190974,45,238
+"Uchinoura Space Center, Japan",31.2540782,131.0796178,46,113
+"Site 45/1, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,47,116
+"SLC-576E, Vandenberg AFB, California, USA",34.66324,-118.190974,48,238
+"SLC-46, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,49,238
+"Site 901 (SLS-1), Jiuquan Satellite Launch Center, China",35.0,105.0,50,47
+"Pad 1, Sohae Satellite Launching Station, North Korea",40.0,127.0,51,163
+"LP-41, Kauai, Pacific Missile Range Facility",22.0349,-159.78258,52,238
+"Site 370/13, Yasny Cosmodrome, Russia",60.0,100.0,53,183
+"Site 35/1, Plesetsk Cosmodrome, Russia",60.0,100.0,54,183
+"Site 175/59, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,55,116
+"LP Odyssey, Kiritimati Launch Area, Pacific Ocean",3.51342,-132.1875,56,238
+"Jiuquan Satellite Launch Center, China",40.964989,100.2838215,57,47
+"Stargazer, Vandenberg AFB, California, USA",34.545234,-118.044607,58,238
+"LC-1, Naro Space Center, South Korea",36.5,127.75,59,201
+"Stargazer, Ronald Reagan Ballistic Missile Defense Test Site, Marshall Islands, USA",7.113,171.236,60,238
+"LP-1, Pacific Spaceport Complex, Alaska, USA",64.00028,-150.00028,61,238
+"SLC-17B, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,62,238
+"SLC-8, Vandenberg AFB, California, USA",34.66324,-118.190974,63,238
+"Site 16/2, Plesetsk Cosmodrome, Russia",60.0,100.0,64,183
+"Site 109/95, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,65,116
+"Site 132/1, Plesetsk Cosmodrome, Russia",60.0,100.0,66,183
+"LC-39B, Kennedy Space Center, Florida, USA",30.919409,-87.314059,67,238
+"SLC-17A, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,68,238
+"Omelek Island, Ronald Reagan Ballistic Missile Defense Test Site, Marshall Islands, USA",42.27226,-84.96331,69,238
+"Pad 1, Tonghae Satellite Launching Ground, North Korea",40.0,127.0,70,163
+"Site 32/2, Plesetsk Cosmodrome, Russia",60.0,100.0,71,183
+"LC-7, Taiyuan Satellite Launch Center, China",35.0,105.0,72,47
+"Site 90/20, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,73,116
+"K-84 Submarine, Barents Sea Launch Area, Barents Sea",74.0,36.0,74,183
+"Svobodny Cosmodrome, Russia",60.0,100.0,75,183
+"K-496 Submarine, Barents Sea Launch Area, Barents Sea",74.0,36.0,76,183
+"SLC-36B, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,77,238
+"SLC-36A, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,78,238
+"SLC-4W, Vandenberg AFB, California, USA",34.66324,-118.190974,79,238
+"VLS Pad, Alc?›ntara Launch Center, Maranh?œo, Brazil",-10.0,-55.0,80,31
+"ELA-2, Guiana Space Centre, French Guiana, France",16.239121,-61.365446,81,78
+"Site 32/1, Plesetsk Cosmodrome, Russia",60.0,100.0,82,183
+"Site 107/1, Kapustin Yar, Russia",48.58175,45.74481,83,183
+"Stargazer, Wallops Flight Facility, Virginia, USA",37.94074,-75.46742,84,238
+"Site 41/1, Plesetsk Cosmodrome, Russia",60.0,100.0,85,183
+"K-407 Submarine, Barents Sea Launch Area, Barents Sea",74.0,36.0,86,183
+"Site 81/23, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,87,116
+"Stargazer, Base Aerea de Gando, Gran Canaria",28.11654,-15.43898,88,203
+"Site 138 (LA-2B), Jiuquan Satellite Launch Center, China",35.0,105.0,89,47
+"Site 158, Plesetsk Cosmodrome, Russia",60.0,100.0,90,183
+"SLC-3W, Vandenberg AFB, California, USA",34.66324,-118.190974,91,238
+"Site 175/58, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,92,116
+"NB-52B Carrier, Edwards AFB, California, USA",35.137696,-117.98221,93,238
+"SLV LP, Satish Dhawan Space Centre, India",22.0,79.0,94,104
+"NB-52B Carrier, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,95,238
+"SLC-N, Tanegashima Space Center, Japan",35.68536,139.75309,96,113
+"Site 131/29, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,97,116
+"Site 45/2, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,98,116
+"Site 132/2, Plesetsk Cosmodrome, Russia",60.0,100.0,99,183
+"ELA-1, Guiana Space Centre, French Guiana, France",16.239257,-61.368589,100,78
+"Site 90/19, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,101,116
+"Site 110/37, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,102,116
+"Site 86/1, Kapustin Yar, Russia",48.58175,45.74481,103,183
+"SM Launch Tab, San Marco Launch Platform, Kenya",1.0,38.0,104,117
+"Site 250, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,105,116
+"LC-13, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,106,238
+"ELD, Guiana Space Centre, French Guiana, France",16.239121,-61.365446,107,78
+"LC-576A1, Vandenberg AFB, California, USA",34.66324,-118.190974,108,238
+"LA-5B, RAAF Woomera Range Complex, Australia",-25.0,135.0,109,14
+"Site 161/35, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,110,116
+"LC-576A2, Vandenberg AFB, California, USA",34.66324,-118.190974,111,238
+"Santa Rita 2, San Marco Launch Platform, Kenya",1.0,38.0,112,117
+"Site 5020 (LA-2A), Jiuquan Satellite Launch Center, China",35.0,105.0,113,47
+"Site 191/66, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,114,116
+"Site 110/38, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,115,116
+"LC-34, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,116,238
+"Site 41/15, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,117,116
+"Site 162, Baikonur Cosmodrome, Kazakhstan",46.0,63.25,118,116
+"LC-12, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,119,238
+"LC-576B3, Vandenberg AFB, California, USA",34.66324,-118.190974,120,238
+"Brigitte, Hammaguir, Algeria, France",47.797268,-3.497746,121,78
+"LC-19, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,122,238
+"LC-14, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,123,238
+"SLC-20, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,124,238
+"Mayak-2, Kapustin Yar, Russia",48.58175,45.74481,125,183
+"SLC-5, Vandenberg AFB, California, USA",34.66324,-118.190974,126,238
+"LA-3, Wallops Flight Facility, Virginia, USA",37.94074,-75.46742,127,238
+"SLC-1E (75-3-5), Vandenberg AFB, California, USA",34.66324,-118.190974,128,238
+"SLC-2E (75-1-1), Vandenberg AFB, California, USA",34.66324,-118.190974,129,238
+"SLC-1W (75-3-4), Vandenberg AFB, California, USA",34.66324,-118.190974,130,238
+"LC-18B, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,131,238
+"LC-5, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,132,238
+"LC-18A, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,133,238
+"LC-11, Cape Canaveral AFS, Florida, USA",28.403276,-80.59903,134,238
+"Douglas F4D Skyray, Naval Air Station Point Mugu, California, USA",35.138238,-118.005406,135,238
+"LC-26A, Cape Canaveral AFS, Florida, USA",28.39402,-80.603151,136,238

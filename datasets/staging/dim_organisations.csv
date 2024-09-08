@@ -1,0 +1,57 @@
+organisation_id,organisation,isprivate
+1,SpaceX,True
+2,CASC,False
+3,Roscosmos,False
+4,ULA,True
+5,JAXA,False
+6,Northrop,True
+7,ExPace,False
+8,IAI,False
+9,Rocket Lab,True
+10,Virgin Orbit,True
+11,VKS RF,False
+12,MHI,False
+13,IRGC,False
+14,Arianespace,False
+15,ISA,False
+16,Blue Origin,True
+17,ISRO,False
+18,Exos,True
+19,ILS,True
+20,i-Space,True
+21,OneSpace,True
+22,Landspace,True
+23,Eurockot,False
+24,Land Launch,False
+25,CASIC,False
+26,KCST,False
+27,Sandia,False
+28,Kosmotras,False
+29,Khrunichev,False
+30,Sea Launch,False
+31,KARI,False
+32,ESA,False
+33,NASA,False
+34,Boeing,True
+35,ISAS,False
+36,SRC,False
+37,MITT,False
+38,Lockheed,True
+39,AEB,False
+40,Starsem,False
+41,RVSN USSR,False
+42,EER,False
+43,General Dynamics,True
+44,Martin Marietta,True
+45,Yuzhmash,False
+46,Douglas,True
+47,ASI,False
+48,US Air Force,False
+49,CNES,False
+50,CECLES,False
+51,RAE,False
+52,UT,False
+53,OKB-586,False
+54,AMBA,False
+55,Arm??e de l'Air,False
+56,US Navy,False
