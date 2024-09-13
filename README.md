@@ -67,8 +67,6 @@ This analysis aims to provide actionable insights for improving space mission st
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-## Tech Stack
-
 ### Data Management
 - **SQL:** Used for querying and managing relational databases.
 - **MariaDB / MySQL:** Database systems utilized for storing and managing data.
