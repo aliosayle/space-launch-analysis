@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Launch Prediction</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #e9ecef;
+            padding: 20px; /* Added padding to prevent content from getting cut off */
+            box-sizing: border-box;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 600px;
+            max-width: 100%;
+            box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+        }
+        h1 {
+            font-size: 28px;
+            color: #343a40;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            font-size: 14px;
+            color: #495057;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            margin-bottom: 15px;
+            padding: 12px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #495057;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #28a745;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Space Launch Prediction</h1>
+        <label for="rocket_status">Rocket Status:</label>
+        <input type="text" id="rocket_status" placeholder="StatusActive">
+
+        <label for="mission_status">Mission Status:</label>
+        <input type="number" id="mission_status" value="1">
+
+        <label for="wind_speed">Wind Speed (m/s):</label>
+        <input type="number" id="wind_speed" step="0.1" value="15.0">
+
+        <label for="humidity">Humidity (%):</label>
+        <input type="number" id="humidity" step="0.1" value="60.0">
+
+        <label for="temperature">Temperature (°C):</label>
+        <input type="number" id="temperature" step="0.1" value="27.0">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="SLC-41, Cape Canaveral AFS, Florida, USA">
+
+        <label for="latitude">Latitude:</label>
+        <input type="number" id="latitude" step="0.1" value="28.5">
+
+        <label for="longitude">Longitude:</label>
+        <input type="number" id="longitude" step="0.1" value="-81.4">
+
+        <label for="country_id">Country ID:</label>
+        <input type="number" id="country_id" value="0">
+
+        <label for="organisation">Organisation:</label>
+        <input type="text" id="organisation" placeholder="NASA">
+
+        <label for="isprivate">Is Private (0 or 1):</label>
+        <input type="number" id="isprivate" value="0">
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="United States">
+
+        <button onclick="predict()">Predict Price</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        async function predict() {
+            const data = {
+                rocket_status: document.getElementById('rocket_status').value,
+                mission_status: parseInt(document.getElementById('mission_status').value),
+                wind_speed: parseFloat(document.getElementById('wind_speed').value),
+                humidity: parseFloat(document.getElementById('humidity').value),
+                temperature: parseFloat(document.getElementById('temperature').value),
+                location: document.getElementById('location').value,
+                latitude: parseFloat(document.getElementById('latitude').value),
+                longitude: parseFloat(document.getElementById('longitude').value),
+                country_id: parseInt(document.getElementById('country_id').value),
+                organisation: document.getElementById('organisation').value,
+                isprivate: parseInt(document.getElementById('isprivate').value),
+                country: document.getElementById('country').value
+            };
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/predict/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                const result = await response.json();
+                document.getElementById('result').innerText = `Predicted Price: $${result.predicted_price.toFixed(2)} M`;
+            } catch (error) {
+                document.getElementById('result').innerText = `Error: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
