@@ -244,6 +244,45 @@ This validation approach ensures that the data has been accurately imported and 
 
 
 <br><br>
+## How to Run
+
+To run the FastAPI application for the space mission clustering project, follow these steps:
+
+1. **Install Python and Dependencies**
+   - Ensure that Python 3.8+ is installed on your system.
+   - Install the required dependencies by running the following command in your terminal:
+     ```bash
+     pip install fastapi uvicorn pandas numpy Faker joblib jinja2
+     ```
+
+2. **Verify or Add the Clustering Model**
+   - Ensure that the pre-trained clustering model (`clustering_model.pkl`) is located in the `../clustering_model/` directory.
+   - If the model is not available, you will need to either train it using the provided dataset or obtain it from another source.
+
+3. **Create Necessary Directories**
+   - Check that the following directories are present in the project root:
+     - `static/` – used for serving static files (CSS, JS, etc.).
+     - `templates/` – used for serving HTML templates.
+   - If these directories do not exist, create them by running:
+     ```bash
+     mkdir static templates
+     ```
+
+4. **Run the FastAPI Application**
+   - Start the FastAPI server using Uvicorn by running the following command:
+     ```bash
+     uvicorn clustering:app --reload
+     ```
+   - This will start the server in development mode, watching for code changes and automatically reloading.
+
+5. **Access the Application**
+   - Open your web browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+   - On the webpage, you will be able to input data for rocket launches (e.g., rocket status, wind speed, temperature).
+   - After submitting the data, the app will display a table of similar space missions based on the input.
+
+6. **Troubleshooting**
+   - If you encounter an error related to missing directories (e.g., `static`), ensure they are correctly created as described in step 3.
+   - The server log should indicate when the FastAPI app has started successfully, displaying the message `INFO: Uvicorn running on http://127.0.0.1:8000`.
 
 ## Conclusion
 
