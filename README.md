@@ -80,6 +80,7 @@ This analysis aims to provide actionable insights for improving space mission st
 
 ### Data Visualization
 - **PowerBI:** Created interactive dashboards and visualizations to present findings.
+- **Installing PowerBI:** You can install PowerBI from microsoft app store using this link: https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop
 
 ### Data Integration and ETL
 - **ETL Process:** Extracted, transformed, and loaded data from multiple sources into a unified data warehouse.
